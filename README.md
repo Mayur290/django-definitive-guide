@@ -1,2 +1,2 @@
 # django
-hello 
+hello/about
