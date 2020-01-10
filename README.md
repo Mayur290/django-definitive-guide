@@ -23,3 +23,4 @@ Create Virtual environment
 * pip install Django==1.11.27
 * deactivate
 ```
+* jebcjdbk
