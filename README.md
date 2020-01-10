@@ -44,3 +44,26 @@ Runnning project
 
 ```$ python manage.py runserver```
 
+## urls available
+
+*shows homepage*
+```http://127.0.0.1:8000/```
+
+*HttpResponse of hello world*
+```http://127.0.0.1:8000/hello```
+
+*simple python current time*
+```http://127.0.0.1:8000/Time```
+
+*shows future time you want to know in 2 digits*
+```http://127.0.0.1:8000/time_ahead/(\d{1,2})/```
+
+*shows current time with django filters*
+```http://127.0.0.1:8000/curr```
+
+```http://127.0.0.1:8000/```
+
+```http://127.0.0.1:8000/```
+
+
+
