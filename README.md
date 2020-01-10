@@ -26,7 +26,7 @@ Create Virtual environment
 ```$ pip freeze```
 * **install django**
 ```$ pip install Django==1.11.27```
-* **to deactivate virtual environment**
+* *to deactivate virtual environment*
 ```$ deactivate```
 
 Install git 
@@ -34,12 +34,13 @@ Install git
 * **Installing git on ubuntu**
 ```$ sudo apt install git```
 
-Clone repository
+Runnning project
+
+```$ cd env ```
 
 ```$ git clone https://github.com/Mayur290/django-definitive-guide.git```
-
-Runnning project
 
 ```$ cd django-definitive-guide```
 
 ```$ python manage.py runserver```
+
