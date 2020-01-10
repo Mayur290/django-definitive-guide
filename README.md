@@ -55,7 +55,7 @@ Runnning project
 *simple python current time*
 ```http://127.0.0.1:8000/Time```
 
-*shows future time you want to know in 2 digits*
+*shows 2 digits future time you want to know *
 ```http://127.0.0.1:8000/time_ahead/(\d{1,2})/```
 
 *shows current time with django filters*
