@@ -3,12 +3,12 @@
 Code implementaion from the book
 
 ## Prerequisites
-'''
+```
 Django 1.11.27
-'''
+```
 
-'''
+```
 Python 2.7.15+
-'''
+```
 
 
