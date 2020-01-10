@@ -35,8 +35,11 @@ Install git
 ```$ sudo apt install git```
 
 Clone repository
+
 ```$ git clone https://github.com/Mayur290/django-definitive-guide.git```
 
 Runnning project
+
 ```$ cd django-definitive-guide```
+
 ```$ python manage.py runserver```
