@@ -1,6 +1,6 @@
-# The Definitive Guide to Django
+#  Django Project
 
-Code implementaion from the book
+understanding django framework
 
 ## Prerequisites
 ```
@@ -10,5 +10,14 @@ Django 1.11.27
 ```
 Python 2.7.15+
 ```
-
-
+```
+Linux( Ubuntu )
+```
+## Installing
+Create Virtual environment
+*sudo apt install virtualenv
+*virtualenv env -p python2
+*source bin/activate
+*pip freeze
+*pip install Django==1.11.27
+*deactivate
