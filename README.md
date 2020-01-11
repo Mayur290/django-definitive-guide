@@ -42,6 +42,10 @@ Runnning project
 
 ```$ cd django-definitive-guide```
 
+```$ python manage.py migrate```
+
+```$ python manage.py makemigrations```
+
 ```$ python manage.py runserver```
 
 ## urls available
