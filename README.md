@@ -72,7 +72,8 @@ Runnning project
 ## Credits
 
 > The Definitive Guide to Django: Web Development Done Right
-> by Adrian Holovaty (Author), Jacob Kaplan-Moss (Author) 
+> 
+> *by Adrian Holovaty (Author), Jacob Kaplan-Moss (Author)* 
 
 *[Buy Book](https://www.amazon.com/Definitive-Guide-Django-Development-Right-ebook/dp/B004VJ46OM/ref=sr_1_1?keywords=the+definitive+guide+to+django&qid=1578764944&sr=8-1)*
 
