@@ -6,9 +6,9 @@
 
 {% block content %}
 {% if error %}
-    <p style="color:red;">Please submit a search term</p>
+    <p style="color:red;">Please submit a search term 20 characters or shorter.</p>
 {% endif %}
-<form action="/search/" method="get">
+<form action="" method="get">
     <input type="text" name="q">
     <input type="submit" value="search">
 </form>

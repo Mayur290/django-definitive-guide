@@ -21,7 +21,7 @@ Create Virtual environment
 * **install python 2.7**
 ```$ virtualenv env -p python2```
 * **activate virtual environment**
-```$ source bin/activat```
+```$ source bin/activate```
 * **to see what modules you have installed**
 ```$ pip freeze```
 * **install django**
