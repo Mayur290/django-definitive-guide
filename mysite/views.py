@@ -3,8 +3,12 @@ from django.shortcuts import render
 import datetime
 
 ## simple hello world
-def Homepage(request):
+def HelloWorld(request):
     return HttpResponse('<h1>Hello world</h1>')
+
+## simple hello world
+def HomePage(request):
+    return HttpResponse('<h1>Homepage will be made!</h1>')
 
 ## simple httpResponse of current time
 def Time(request):

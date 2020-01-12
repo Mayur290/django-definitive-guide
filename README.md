@@ -65,7 +65,8 @@ Runnning project
 *shows current time with django filters*
 ```http://127.0.0.1:8000/curr```
 
-```http://127.0.0.1:8000/```
+*book search form*
+```http://127.0.0.1:8000/search-form```
 
 ```http://127.0.0.1:8000/```
 
