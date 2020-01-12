@@ -66,9 +66,13 @@ Runnning project
 ```http://127.0.0.1:8000/curr```
 
 *book search form*
-```http://127.0.0.1:8000/search-form```
+```http://127.0.0.1:8000/search```
 
-```http://127.0.0.1:8000/```
+*contact form made with functions*
+```http://127.0.0.1:8000/contact-func```
+
+*contact form made with django forms*
+```http://127.0.0.1:8000/contact-class```
 
 ## Credits
 

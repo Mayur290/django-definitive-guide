@@ -11,5 +11,7 @@ urlpatterns = [
     url(r'^time_ahead/(\d{1,2})/$',TimeAhead),
     url(r'^curr/$',current_datetime),
     url(r'^search/$',views.search),
+    url(r'^contact-func/$',views.contact_function),
+    url(r'^contact-class/$',views.contact_class),
 ]																		 
      
