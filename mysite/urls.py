@@ -10,7 +10,6 @@ urlpatterns = [
     url(r'^Time/$',Time),
     url(r'^time_ahead/(\d{1,2})/$',TimeAhead),
     url(r'^curr/$',current_datetime),
-    url(r'^search-form/$',views.search_form),
     url(r'^search/$',views.search),
 ]																		 
      

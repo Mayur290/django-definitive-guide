@@ -5,19 +5,17 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from books.models import Book
 
-# Create your views here.
-def search_form(request):
-    return render(request,"search_form.html")
+
 
 def search(request):
-    error = False
+    errors = []
     if 'q' in request.GET:
         q=request.GET['q']
         if not q:
-            error = True
+            errors.append('Enter a search item.')
         elif len(q)>20:
-            error = True
+            errors.append('Please enter atmost 20 items. ')
         else:
             books = Book.objects.filter(title__icontains=q)
             return render(request,"search_results.html",{'books':books,'query':q})
-    return render(request,"search_form.html",{'error':error})
+    return render(request,"search_form.html",{'errors':errors})

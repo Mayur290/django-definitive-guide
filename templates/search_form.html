@@ -5,8 +5,13 @@
 {% endblock title %}
 
 {% block content %}
-{% if error %}
-    <p style="color:red;">Please submit a search term 20 characters or shorter.</p>
+{% if errors %}
+<ul>
+{% for error in errors %}
+<li style="color:red;">{{error}}</li>
+{% endfor %}
+</ul>
+  
 {% endif %}
 <form action="" method="get">
     <input type="text" name="q">
