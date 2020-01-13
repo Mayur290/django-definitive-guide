@@ -1,6 +1,6 @@
 #  Django Project
 
-understanding django framework
+**understanding django framework**
 
 ## Prerequisites
 ```
@@ -14,7 +14,7 @@ Python 2.7.15+
 Linux(Ubuntu)
 ```
 ## Installing
-Create Virtual environment
+**Create Virtual environment**
 
 * **install virtual environment**
 ```$ sudo apt install virtualenv```
@@ -29,12 +29,12 @@ Create Virtual environment
 * *to deactivate virtual environment*
 ```$ deactivate```
 
-Install git 
+**Install git** 
 
 * **Installing git on ubuntu**
 ```$ sudo apt install git```
 
-Runnning project
+**Runnning project**
 
 ```$ cd env ```
 
